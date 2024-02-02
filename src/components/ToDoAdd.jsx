@@ -22,9 +22,10 @@ function ToDoAdd({ newData }) {
     }
 
     return (
-        <div className="row items-container">
-            <div className="col-5">
+        <div className="row items-container add-css">
+            <div className="col-5 ">
                 <input
+                    className="input-css"
                     type="text"
                     placeholder="Enter ToDo here"
                     value={newName}
@@ -34,6 +35,7 @@ function ToDoAdd({ newData }) {
             </div>
             <div className="col-5">
                 <input
+                    className="input-css"
                     type="date"
                     value={newDate}
                     onChange={handleNewDate}
