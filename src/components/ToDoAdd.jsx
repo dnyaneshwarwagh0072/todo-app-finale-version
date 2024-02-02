@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 
 function ToDoAdd({ newData }) {
-    const [newName, setNewName] = useState();
-    const [newDate, setNewDate] = useState();
+    const [newName, setNewName] = useState("");
+    const [newDate, setNewDate] = useState("");
 
     const inputRef = useRef("");
 
