@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.todo_container {
+    /* margin-left: 10px; */
+    /* min-width: 400px; */
+    text-align: start;
+}
+
+.text-center {
+    background-color: rgb(216, 214, 214);
+    min-width: 600px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.kg-btn {
+    width: 80px;
+    margin: 0%;
+}
+
+.items-container {
+    padding: 5px;
+}
