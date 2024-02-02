@@ -21,7 +21,8 @@ body {
 
 .kg-btn {
     width: 80px;
-    margin: 0%;
+    /* margin-top: 5%; */
+
 }
 
 .items-container {
@@ -37,9 +38,12 @@ body {
     margin-top: 30px;
 }
 .input-css{
-    width:500px;
-    padding: 10px;
-    border-radius: 15px;
+    /* width:300px; */
+    /* max-width: 100%; */
+    /* background-color: yellow; */
+    padding: 7px;
+    border-radius: 10px;
     border: none;
+    width: 100%;
     text-align: center;
 }
